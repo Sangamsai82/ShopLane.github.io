@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopLane Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo-wrapper">
+                <div id="logo">
+                    <a href="./index.html"> Shop
+                        <span>Lane</span></a> 
+                </div>
+                
+                <div id="anchors">
+                    <a href="#clothing">Clothing</a>
+                    <a href="#accesories">Accessories</a>
+                </div>
+            </div>
+            
+            <div id="search-wrapper">
+                <i class="fas fa-search"></i>
+                <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories"/>
+            </div>
+            <div id="cart-account-wrapper">
+                <div id="cart-count-container">
+                    <a href="./checkout.html"><i class="fas fa-shopping-cart"></i></a>
+                    <span id="count">0</span>
+                </div>
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </nav>
+    </header>
+    <!--<header>
+        <a href="#" class="logo"><span>SHOP</span>LANE</a>
+        <div class="group">
+            <ul class="navigation">
+                <li><a href="#clothing">CLOTHING</a></li>
+                <li><a href="#accesories">ACCESSORIES</a></li>
+            </ul>
+            <div class="search">
+                <span class="icon">
+                    <ion-icon name="search-outline" class="searchBtn"></ion-icon>
+                    <ion-icon name="close-outline" class="closeBtn"></ion-icon>
+                </span>
+                <div class="cart-container">
+                    <span class="cartCount" id="cartCount">0</span>
+                    <a href="/CheckOut/cart.html" id="cart">
+                        <ion-icon name="cart-outline" class="cartBtn"></ion-icon>
+                    </a>
+                </div>
+                <img src="./image/photo.jpg" alt="user">
+            </div>
+            <ion-icon name="menu-outline" class="menuBtn"></ion-icon>
+        </div>
+        <div class="searchBox">
+            <input type="text" placeholder="Search for Clothing and Accessories">
+        </div>
+    </header>-->
+    
+    <section id="products">
+        <section id="banner-wrapper">
+            <div id="owl-carousel" class="owl-carousel owl-theme">
+                <div class="item">
+                  <img src="img1.png"/>
+                </div>
+                <div class="item">
+                  <img src="img2.png"/>
+                </div>
+                <div class="item">
+                  <img src="img3.png"/>
+                </div>
+                <div class="item">
+                  <img src="img4.png"/>
+                </div>
+            </div>
+        </section>
+        <section id="clothing" class="common-grid-wrapper">
+            <h2>Clothing for Men and Women</h2>
+            <div class="card-wrapper" id="topWrapper">
+                
+            </div>
+        </section>
+        <section id="accesories" class="common-grid-wrapper">
+            <h2>Accessories for Men and Women</h2>
+            <div class="card-wrapper" id="bottomWrapper">
+    
+            </div>
+        </section>
+    </section>
+    <!------ <footer>
+        <div id="footer-wrapper">
+            <div class="sections">
+                <h4>ONLINE STORE</h4>
+                <p>MEN CLOTHING</p>
+                <p>WOMEN CLOTHING</p>
+                <p>MEN ACCESSORIES</p>
+                <p>WOMEN ACCESSORIES</p>
+            </div>
+            <div class="sections">
+                <h4>HELPFUL LINKS</h4>
+                <p>HOME</p>
+                <p>ABOUT</p>
+                <p>CONTACT</p>
+            </div>
+            <div class="sections">
+                <h4>PARTNERS</h4>
+                <p>ZARA</p>
+                <p>PANTALOONS</p>
+                <p>LEVIS</p>
+                <p>UCB</p>
+                <p>+ MANY MORE</p>
+            </div>
+            <div class="sections last">
+                <h4>ADDRESS</h4>
+                <a class="add">BUILDING 101</a>
+                <a class="add">CENTRAL AVENUE</a>
+                <a class="add">LA - 902722</a>
+                <a class="add">UNITED STATES</a>
+            </div>
+        </div>
+    </footer> -------->
+
+    <footer>
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>ONLINE STORE</h4>
+                    <ul>
+                        <li><a href="#">MEN CLOTHING</a></li>
+                        <li><a href="#">WOMEN CLOTHING</a></li>
+                        <li><a href="#">MEN ACCESSORIES</a></li>
+                        <li><a href="#">WOMEN ACCESSORIES</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>HELPFUL LINKS</h4>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>PARTNERS</h4>
+                    <ul>
+                        <li><a href="#">ZARA</a></li>
+                        <li><a href="#">PANTALOONS</a></li>
+                        <li><a href="#">LEVIS</a></li>
+                        <li><a href="#">UCB</a></li>
+                        <li><a href="#">+ MANY MORE</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col" id="address">
+                    <h4>ADDRESS</h4>
+                    <ul>
+                        <li><a href="#">BUILDING 101</a></li>
+                        <li><a href="#">CENTRAL AVENUE</a></li>
+                        <li><a href="#">LA - 902722</a></li>
+                        <li><a href="#">UNITED STATES</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <img src="logo.png" alt="logo">
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
